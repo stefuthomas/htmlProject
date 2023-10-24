@@ -1,9 +1,11 @@
 .container {
     margin: auto;
+    width: 80%;
 }
 
 header {
     display: flex;
+    flex-direction: row;
     background-color: indigo;
     margin: auto;
     width: 60%;
@@ -16,9 +18,10 @@ header img {
 
 ul {
     display: flex;
+    flex-direction: row;
     list-style-type: none;
-    justify-content: center;
     background-color: indigo;
+    padding: 0;
 }
 
 li a {
@@ -38,6 +41,6 @@ li a:hover {
 main {
     background-color: slateblue;
     text-align: center;
-    width: 75%;
+    width: 60%;
     margin: auto;
 }
