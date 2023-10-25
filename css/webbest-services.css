@@ -1,10 +1,12 @@
+
+
 .container {
     margin: auto;
     width: 60%;
 }
 
 article {
-    padding-bottom: 190px;
+    padding-bottom: 200px;
     padding-left: 29px;
 }
 
@@ -71,9 +73,37 @@ h2 {
     color: gold;
     font-size: 3rem;
     padding: 1rem;
+    text-align: left;
+}
+
+h3 {
+    color: gold;
+    padding: 1rem;
+    text-align: left;
 }
 
 p {
-    color: gold;
+    color: floralwhite;
     padding: 2rem;
+    width: 80%;
+    padding-right: 20px;
+    background-color: #ff29c1;
+    margin: auto;
+    border-radius: 50px;
+}
+
+section {
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+
+section img{
+    float: left;
+    margin-right: 20px;
+}
+
+section figure{
+    float: left;
+    width: auto;
+    height: 200px;
 }
