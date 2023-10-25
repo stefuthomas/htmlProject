@@ -3,6 +3,12 @@
     width: 60%;
 }
 
+body {
+    background-color: #9500ff;
+    background: linear-gradient(to bottom, rgb(159, 4, 229) 0%, rgb(255, 41, 247) 100%);
+    margin-bottom: 30px;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -11,6 +17,7 @@ header {
     background-color: indigo;
     margin: auto;
     width: 50%;
+    border-radius: 10px;
 }
 
 header img {
@@ -19,6 +26,7 @@ header img {
 }
 
 h1 {
+    color: gold;
     margin: auto;
     padding: 1rem;
 }
@@ -42,7 +50,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #9500ff;
+        background-color: #9500ff;
 }
 
 main {
@@ -50,9 +58,26 @@ main {
     text-align: center;
     width: 60%;
     margin: auto;
+    margin-bottom: 150px;
+    border-radius: 20px;
 }
 
 h2 {
+    color: gold;
     font-size: 3rem;
     padding: 1rem;
+}
+
+p {
+    color: gold;
+    padding: 2rem;
+}
+
+.container1 {
+    margin: auto;
+    width: 60%;
+}
+
+.services {
+    text-align: left;
 }
