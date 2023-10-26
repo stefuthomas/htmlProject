@@ -49,7 +49,6 @@ ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    background-color: #A9CFFFFF;
     padding: 0;
 }
 
@@ -90,7 +89,7 @@ h2 {
     padding: 1rem;
     margin-top: 50px;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 p {
