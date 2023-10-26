@@ -69,11 +69,11 @@ li a:hover {
 }
 
 main {
-    background: linear-gradient(to bottom, rgba(87, 243, 213, 0.33), #a99c70);
+    background: linear-gradient(to bottom, rgba(87, 243, 213, 0.33), #342b00);
     text-align: center;
     width: 1000px;
     margin: auto;
-    margin-bottom: 150px;
+    margin-bottom: 300px;
     margin-top: 75px;
     border: 2px solid #1e478e;
     border-radius: 20px;
@@ -88,9 +88,13 @@ section img {
     width: 200px;
     height: 200px;
     padding: 5px;
-    background-color: #A99C70FF;
+    background-color: #342b00;
     border-radius: 20px;
     box-shadow: 0 0 25px rgba(255, 217, 122, 0.7);
+}
+
+section article {
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -107,7 +111,7 @@ h2 {
 
 h3 {
     color: #fff;
-    background-color: #A99C70FF;
+    background-color: #342b00;
     width: 150px;
     padding-left: 10px;
     padding-right: 10px;
@@ -123,7 +127,7 @@ p {
     margin-top: 0;
     margin-bottom: 0;
     padding: 25px;
-    background-color: #A99C70FF;
+    background-color: #342b00;
     width: 600px;
     text-align: center;
     clear: left;

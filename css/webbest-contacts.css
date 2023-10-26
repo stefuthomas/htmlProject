@@ -69,7 +69,7 @@ li a:hover {
 }
 
 main {
-    background: linear-gradient(to bottom, rgba(87, 243, 213, 0.33), #a99c70);
+    background: linear-gradient(to bottom, rgba(87, 243, 213, 0.33), #342B00FF);
     text-align: center;
     width: 1000px;
     margin: auto;
@@ -98,7 +98,7 @@ h2 {
 .contact-info {
     text-align: left;
     align-content: center;
-    background-color: #A99C70FF;
+    background-color: #342b00;
     color: #fff;
     width: 275px;
     padding: 10px;
@@ -124,7 +124,7 @@ iframe {
 }
 
 footer {
-    background: linear-gradient(to bottom, rgba(87, 243, 213, 0.33), #a99c70);
+    background: linear-gradient(to bottom, rgba(87, 243, 213, 0.33), #342b00);
     text-align: center;
     width: 500px;
     margin: 75px auto;
