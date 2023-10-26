@@ -1,17 +1,13 @@
-.container {
-    margin: auto;
-    width: 50%;
-}
-
-article {
-    padding-top: 0;
-    padding-bottom: 190px;
-    padding-left: 29px;
+@font-face {
+    font-family: Roboto;
+    src: url("Roboto-Regular.ttf") format("truetype");
 }
 
 body {
     background: linear-gradient(to bottom, rgb(166, 225, 250) 1%, rgb(243, 238, 179) 100%);
     margin-bottom: 30px;
+    font-family: Roboto, sans-serif;
+    color: #333;
 }
 
 header {
@@ -21,10 +17,10 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #AC8EB9FF;
     margin: auto;
     margin-top: 75px;
-    width: 50%;
+    width: 1200px;
+    height: 150px;
     border-radius: 50px;
     color: #333;
     border: 1px solid #1e478e;
@@ -40,9 +36,11 @@ header img {
 h1 {
     color: floralwhite;
     margin: auto;
-    margin-right: 1px;
     padding: 5px;
+}
 
+nav {
+    margin: auto;
 }
 
 ul {
@@ -50,13 +48,14 @@ ul {
     flex-direction: row;
     list-style-type: none;
     padding: 0;
+    width: 50%;
 }
 
 li a {
     background: linear-gradient(to bottom, #a9cfff, #85a7f2);
     color: floralwhite;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
-    width: 8rem;
+    width: 150px;
     height: 4rem;
     display: block;
     text-align: center;
@@ -65,16 +64,17 @@ li a {
 }
 
 li a:hover {
-        background-color: #9E9FD5FF;
+    background: linear-gradient(to bottom, #85a7f2, #a9cfff);
+    color: #0900e6;
 }
 
 main {
     background: linear-gradient(to bottom, rgba(87, 243, 213, 0.33), #a99c70);
     text-align: center;
-    width: 75%;
+    width: 1000px;
     margin: auto;
     margin-bottom: 150px;
-    margin-top: 75px;
+    margin-top: 50px;
     border: 2px solid #1e478e;
     border-radius: 20px;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
@@ -84,16 +84,40 @@ main {
 }
 
 h2 {
-    color: #ffffff;
-    font-size: 3rem;
-    padding: 1rem;
-    margin-top: 50px;
+    width: 130px;
+    padding: 10px;
     text-align: center;
-    text-decoration: none;
+    margin: auto;
+    color: floralwhite;
+    background: linear-gradient(to bottom, #a9cfff, #85a7f2);
+    border-radius: 12px;
+    border: 2px solid floralwhite;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+article img {
+    margin-top: 25px;
+    border-radius: 20px;
 }
 
 p {
+    padding: 10px;
+    margin: 20px;
+    background-color: #A99C70FF;
     color: floralwhite;
-    padding: 2rem;
+    border: 2px solid floralwhite;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
 }
 
+
+@media (min-width: 1025px) {
+    header {
+        height: 150px;
+        width: 1200px;
+    }
+
+    main {
+
+    }
+}
