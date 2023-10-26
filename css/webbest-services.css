@@ -1,17 +1,8 @@
-.container {
-    margin: auto;
-    width: 50%;
-}
-
-article {
-    padding-top: 0;
-    padding-bottom: 190px;
-    padding-left: 29px;
-}
-
 body {
     background: linear-gradient(to bottom, rgb(166, 225, 250) 1%, rgb(243, 238, 179) 100%);
     margin-bottom: 30px;
+    font-family: Arial, sans-serif;
+    color: #333;
 }
 
 header {
@@ -41,7 +32,6 @@ h1 {
     margin: auto;
     margin-right: 1px;
     padding: 5px;
-
 }
 
 ul {
@@ -69,6 +59,10 @@ li a:hover {
     color: #0900e6;
 }
 
+.container {
+    margin: auto;
+    width: 50%;
+}
 
 main {
     background: linear-gradient(to bottom, rgba(87, 243, 213, 0.33), #a99c70);
@@ -99,7 +93,6 @@ section img {
     border-radius: 20px;
     box-shadow: 0 0 25px rgb(255, 217, 122);
     padding: 5px;
-
 }
 
 section figure {
@@ -107,7 +100,6 @@ section figure {
     width: auto;
     height: 200px;
 }
-
 
 h2 {
     color: #ffffff;
